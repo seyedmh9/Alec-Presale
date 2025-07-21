@@ -1,0 +1,54 @@
+:root {
+  background-color: #000;
+  --ligth-green-color: #00cc66;
+  --dark-green-color: #196934;
+  --bg-green-color: #002512;
+  --bg-menu-green-color: #133f28;
+  --greenslider-color: #002512;
+  --bg-footer-color: #1b1b1b;
+  --playbtn-color: #00974e;
+  --title-green-color: #00ff7e;
+  --border-green-color: #00ff7f;
+  --text-color-mattersSection: #23a54f;
+  --bgColor-appSection: linear-gradient(
+    0deg,
+    rgba(0, 59, 29, 1) 0%,
+    rgba(35, 165, 79, 1) 100%
+  );
+  --bgColor-contactSection: linear-gradient(180deg, #002512 0%, #005830 100%);
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(./assets/Fonts/poppins.regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins";
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1920px;
+  margin: auto;
+  color: #fff;
+}
+
+.container {
+  max-width: 1600px;
+  padding-inline: 3rem;
+  margin: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-inline: 1rem;
+  }
+}
